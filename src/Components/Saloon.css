@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background: url('C:\Users\ashis\Desktop\saloon\saloon\src\Components\Image\saloon3.jpg') no-repeat center center/cover;
+    background: url('src/Components/Image/saloon3.jpg') no-repeat center center/cover;
     color: #fff;
     position: relative;
     text-align: center;
