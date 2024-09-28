@@ -1,0 +1,604 @@
+/* HeroSection.css */
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url('C:\Users\ashis\Desktop\saloon\saloon\src\Components\Image\saloon3.jpg') no-repeat center center/cover;
+    color: #fff;
+    position: relative;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    background-blend-mode: darken;
+  }
+  
+  .hero-content {
+    z-index: 1;
+  }
+  
+  .hero-title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .hero-btn {
+    padding: 0.75rem 2rem;
+    font-size: 1.25rem;
+    color: #fff;
+    background-color: #ff6347; /* Tomato color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hero-btn:hover {
+    background-color: #ff4500; /* Darker shade of tomato */
+  }
+  
+
+
+  /* NavBar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #111;
+  color: #fff;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-logo a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-item a {
+  font-size: 1rem;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-item a:hover {
+  color:white; 
+}
+
+.navbar-btn {
+  margin-right: 30px;
+  padding: 0.5rem 1rem;
+  background-color: #ff6347; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-btn:hover {
+  background-color: #ff4500; 
+}
+
+
+/* AboutUs.css */
+.about-section {
+    padding: 4rem 2rem;
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .about-title {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .about-description {
+    font-size: 1.25rem;
+    margin-bottom: 3rem;
+  }
+  
+  .team {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  
+  .team-member {
+    text-align: center;
+    max-width: 200px;
+  }
+  
+  .team-photo {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+  
+  .team-name {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .team-role {
+    font-size: 1rem;
+    color: #ff6347; /* Tomato color */
+  }
+
+  
+
+  /* Services.css */
+.services-section {
+    padding: 4rem 2rem;
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .services-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .services-title {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .services-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+  }
+  
+  .service-item {
+    background-color: #222;
+    padding: 2rem;
+    border-radius: 8px;
+    max-width: 300px;
+    flex: 1 1 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .service-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+  
+  .service-title {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #ff6347; /* Tomato color */
+  }
+  
+  .service-description {
+    font-size: 1rem;
+    color: #ddd;
+  }
+
+  /* Gallery.css */
+.gallery-section {
+    padding: 4rem 2rem;
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .gallery-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .gallery-title {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+  
+  .gallery-item {
+    overflow: hidden;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .gallery-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+  
+  .gallery-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+  }
+  
+
+  /* Testimonials.css */
+.testimonials-section {
+    padding: 4rem 2rem;
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .testimonials-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .testimonials-title {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .testimonials-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+  }
+  
+  .testimonial-item {
+    background-color: #222;
+    padding: 2rem;
+    border-radius: 8px;
+    max-width: 300px;
+    text-align: center;
+    flex: 1 1 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .testimonial-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+  
+  .testimonial-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+  
+  .testimonial-text {
+    font-size: 1rem;
+    color: #ddd;
+    margin-bottom: 1rem;
+  }
+  
+  .testimonial-name {
+    font-size: 1.25rem;
+    color: #ff6347; /* Tomato color */
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  
+  /* Blog.css */
+.blog-section {
+    padding: 4rem 2rem;
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .blog-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .blog-title {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .blog-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+  }
+  
+  .blog-item {
+    background-color: #222;
+    border-radius: 8px;
+    overflow: hidden;
+    max-width: 300px;
+    text-align: left;
+    flex: 1 1 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .blog-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+  
+  .blog-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .blog-content {
+    padding: 1.5rem;
+  }
+  
+  .blog-post-title {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #ff6347; /* Tomato color */
+  }
+  
+  .blog-date {
+    font-size: 0.875rem;
+    color: #bbb;
+    margin-bottom: 1rem;
+  }
+  
+  .blog-summary {
+    font-size: 1rem;
+    color: #ddd;
+    margin-bottom: 1rem;
+  }
+  
+  .blog-link {
+    font-size: 1rem;
+    color: #ff6347; /* Tomato color */
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .blog-link:hover {
+    color: #ff4500; /* Darker shade of tomato */
+  }
+  
+
+  /* AppointmentBooking.css */
+.appointment-section {
+    padding: 4rem 2rem;
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .appointment-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .appointment-title {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .appointment-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .appointment-input {
+    padding: 0.75rem;
+    border: 1px solid #444;
+    border-radius: 5px;
+    background-color: #222;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+  }
+  
+  .appointment-input::placeholder {
+    color: #888;
+  }
+  
+  .appointment-input:focus {
+    outline: none;
+    border-color: #ff6347; /* Tomato color */
+  }
+  
+  .appointment-button {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff6347; /* Tomato color */
+    color: #fff;
+    font-size: 1.25rem;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .appointment-button:hover {
+    background-color: #ff4500; /* Darker shade of tomato */
+  }
+  
+
+  /* Contact.css */
+.contact-section {
+    padding: 4rem 2rem;
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .contact-title {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .contact-input {
+    padding: 0.75rem;
+    border: 1px solid #444;
+    border-radius: 5px;
+    background-color: #222;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    resize: none;
+  }
+  
+  .contact-input::placeholder {
+    color: #888;
+  }
+  
+  .contact-input:focus {
+    outline: none;
+    border-color: #ff6347; /* Tomato color */
+  }
+  
+  .contact-button {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff6347; /* Tomato color */
+    color: #fff;
+    font-size: 1.25rem;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-button:hover {
+    background-color: #ff4500; /* Darker shade of tomato */
+  }
+
+  
+
+  /* Footer.css */
+.footer-section {
+    background-color: #111;
+    color: #fff;
+    padding: 4rem 2rem;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-left {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .footer-logo {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .footer-description {
+    color: #aaa;
+    margin-bottom: 2rem;
+  }
+  
+  .footer-social-icons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+  }
+  
+  .social-icon {
+    color: #fff;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    color: #ff6347; /* Tomato color */
+  }
+  
+  .footer-right {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .footer-contact {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .footer-contact-info {
+    color: #aaa;
+  }
+  
+  .footer-bottom {
+    margin-top: 2rem;
+  }
+  
+  .footer-text {
+    font-size: 0.875rem;
+    color: #888;
+  }
+  

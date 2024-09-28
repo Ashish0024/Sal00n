@@ -1,0 +1,172 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-family: Poppins, sans-serif;
+  margin: 0;
+  outline: none;
+  padding: 0;
+  scroll-behavior: smooth;
+  text-decoration: none;
+
+  /* background-color: grey;  */
+}
+.dashboard{
+
+background-color: rgb(60, 131, 173); 
+width: 100%;
+height: 100vh;
+display: flex;
+align-items: center;
+}
+.Dashboard{
+width: 100%;
+  /* padding-top: 100px;  */
+  display: grid;
+  grid-template-columns: repeat(3,30%);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+  /* border: 2px solid black; */
+  
+
+}
+.Saloon{
+  color: black;
+  height: 150px;    
+  /* background-color:white;  */
+  text-align: center;
+  text-transform:uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 20px ; */
+  /* margin-bottom: 20px; */
+  border-radius: 20px;
+  /* border: 2px solid black; */
+  box-shadow: 0 0 18px 0 rgba(0, 0, 0, 0.75);
+
+background-color: #ddd;
+border: none;
+color: black;
+padding: 16px 32px;
+text-align: center;
+font-size: 22px;
+/* font-weight: 100; */
+/* margin: 4px 2px; */
+transition: 0.3s;
+  
+}
+.Saloon:hover{
+  background-color: #9196ea;
+color: white;
+}
+.Customer{
+  color: black;
+  height: 150px;   
+  background-color:white; 
+  text-align: center;
+  text-transform:uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 32px ;
+  /* margin-bottom: 20px; */
+  border-radius: 20px;
+  border: 2px solid black;
+  box-shadow: 0 0 18px 0 rgba(0, 0, 0, .75);
+
+
+
+
+  background-color: #ddd;
+  border: none;
+  color: black;
+  /* padding: 16px 32px; */
+  text-align: center;
+  font-size: 22px;
+  /* font-weight: bold; */
+  /* margin: 4px 2px; */
+  transition: 0.3s;
+    
+
+}
+
+.Customer:hover{
+  background-color: #9196ea;
+color: white;
+}
+.AWT7{
+  height: 150px;   
+  color: black;
+  background-color:white; 
+  text-align: center;
+  text-transform:uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 20px ; */
+  /* margin-bottom: 20px; */
+  border-radius: 20px;    
+  border: 2px solid black;
+  box-shadow: 0 0 18px 0 rgba(0, 0, 0, .75);
+
+
+
+
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 22px;
+  /* font-weight: bold; */
+  margin: 4px 2px;
+  transition: 0.3s;
+}
+.AWT7:hover{
+  background-color: #9196ea;
+color: white;
+}
+.Showdata{
+height: 150px;   
+color: black;
+background-color:white; 
+text-align: center;
+text-transform:uppercase;
+display: flex;
+justify-content: center;
+align-items: center;
+/* padding: 20px ; */
+/* margin-bottom: 20px; */
+border-radius: 20px;    
+border: 2px solid black;
+box-shadow: 0 0 18px 0 rgba(0, 0, 0, .75);
+
+
+
+
+background-color: #ddd;
+border: none;
+color: black;
+padding: 16px 32px;
+text-align: center;
+font-size: 22px;
+/* font-weight: bold; */
+margin: 4px 2px;
+transition: 0.3s;
+}
+.Showdata:hover{
+background-color: #9196ea;
+color: white;
+}
+
+
+
+.Dashboard div a:hover{
+  color: white;
+}
+/* .AWS1 div a{
+  height: 1vh;
+} */
